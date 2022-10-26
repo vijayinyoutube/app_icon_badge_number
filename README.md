@@ -57,6 +57,12 @@ quickalert: ^1.0.0
     <img src="https://user-images.githubusercontent.com/58719230/197913614-a0282978-5efe-4570-a0a7-86c09a6f1663.png" width="250" height="550"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://user-images.githubusercontent.com/58719230/197913621-6d6c9984-f50f-4cbd-9e3d-7f31f18bd2bb.png" width="250" height="550">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://user-images.githubusercontent.com/58719230/197913628-9197c186-c5e8-46f4-9ef0-e351299f1cd6.png" width="250" height="550">  
 </div>   
 
+  
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/58719230/197923299-ee8c7530-14bf-46ff-bd93-860a49cc4bba.gif" > 
+</div>  
+  
+  
 ## License
 
 ```
