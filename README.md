@@ -1,5 +1,5 @@
 
-# <div align="center"> App Icon Batch Number - Package Explore </div>
+# <div align="center"> App Icon Badge Number - Package Explore </div>
 
 <div align="center">
   
