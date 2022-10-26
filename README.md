@@ -47,6 +47,7 @@ Visit my channel 👉 : https://www.youtube.com/c/vijaycreationsflutter
 ## Dependencies
 ```pubspec.yaml
 flutter_dynamic_icon: ^2.1.0
+quickalert: ^1.0.0
 ```
 
 
