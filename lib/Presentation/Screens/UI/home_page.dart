@@ -1,10 +1,11 @@
-import '../../Components/app_bar.dart';
-import '../../Constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dynamic_icon/flutter_dynamic_icon.dart';
 import 'package:quickalert/models/quickalert_type.dart';
 import 'package:quickalert/widgets/quickalert_dialog.dart';
+
+import '../../Components/app_bar.dart';
+import '../../Constants/constants.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key, required this.title}) : super(key: key);
@@ -17,14 +18,14 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           style: getBtnStyle(context),
-          child: const Text('Set batch no'),
-          onPressed: () => setBatchNum(5, context),
+          child: const Text('Set badge no'),
+          onPressed: () => setBadgeNum(5, context),
         ),
       ),
     );
   }
 
-  setBatchNum(int count, BuildContext context) async {
+  setBadgeNum(int count, BuildContext context) async {
     try {
       await FlutterDynamicIcon.setApplicationIconBadgeNumber(count);
     } on PlatformException {
@@ -32,12 +33,12 @@ class HomePage extends StatelessWidget {
     } catch (e) {
       print(e);
     }
-    // To get currently batch number that was set.
-    int batchNumber = await FlutterDynamicIcon.getApplicationIconBadgeNumber();
+    // To get currently badge number that was set.
+    int badgeNumber = await FlutterDynamicIcon.getApplicationIconBadgeNumber();
     // Quick alert box for acknowledgement
     QuickAlert.show(
       context: context,
-      title: 'Batch Number set as $batchNumber',
+      title: 'Badge Number set as $badgeNumber',
       text: 'Minimize the app to check it out!',
       type: QuickAlertType.success,
       confirmBtnColor: primaryColor,

@@ -8,7 +8,7 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(
-            builder: (_) => const HomePage(title: 'Batch Number'));
+            builder: (_) => const HomePage(title: 'Badge Number'));
       default:
         return _errorRoute();
     }
